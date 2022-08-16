@@ -1,0 +1,292 @@
+*{
+    box-sizing: border-box !important;
+    color: #062C30;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #E5EBF1;
+}
+
+a{
+    text-decoration: none;
+}
+
+b{
+    color: #062C30;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 5px 4px 50px rgba(0, 0, 0, 0.06);
+}
+
+
+/* navbar */
+.navbar{
+    background-color: #151D3B;
+}
+
+.navbar-brand{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.navbar a{
+    color: white !important;
+}
+
+.navbar-brand span{
+    color: #02A9FF;
+}
+
+.nav-link{
+    color: white !important;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.nav-link.active{
+    font-weight: 700;
+    color: #F6F54D !important;
+}
+/* navbar */
+
+/* login.php */
+.form-login{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.login-logo{
+    color: #062C30;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+.login-logo span{
+    color: #F6F54D;
+}
+
+.form label{
+    color: #062C30;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form input{
+    border-radius: 10px;
+    box-shadow: 5px 4px 50px rgba(0, 0, 0, 0.06);
+    font-size: 16px;
+    padding: 10px;
+}
+
+.button{
+    width: 100%;
+    height: 70px;
+    background-color: #D61C4E;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 4px 50px rgba(0, 0, 0, 0.06);
+    transition: 0.3s all;
+    text-decoration: none;
+}
+
+.button p{
+    padding: 25px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+/* login.php */
+
+.body-page{
+    margin-top: 50px;
+}
+
+.heading-categories{
+    color: #062C30;
+    font-weight: 700;
+    text-align: left;
+}
+
+.card{
+    background-color: #FBFBFB;
+    padding: 10px 10px 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 4px 50px rgba(0, 0, 0, 0.06);
+    transition: 0.3s all;
+}
+
+.card .tittle-anime{
+    color: #062C30;
+    font-size: 18px;
+}
+
+
+/* news.html */
+.section-heading{
+    color: #062C30;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-sidebar{
+    color: #062C30;
+    font-weight: 700;
+}
+
+.subheading{
+    color: #062C30;
+    text-align: center;
+}
+
+.subheading-article{
+    color: #062C30;
+    text-align: justify;
+}
+
+.sidebar img{
+    width: 100%;
+    height: auto;
+}
+
+.sidebar-heading{
+    color: #062C30;
+}
+
+.sidebar-tanggal{
+    color: #062C30;
+}
+/* news.html */
+
+/* footer */
+.footer{
+    background-color: #151D3B;
+    /* border-top: 2px solid #DDDDDD; */
+    padding-top: 20px;
+}
+.footer .logo-footer a{
+    color: #F6FBF4;
+}
+
+.footer .logo span{
+    color: #E2D784;
+}
+
+.footer h3{
+    color: #FBFBFB;
+}
+
+.footer .info a{
+    color: #F6FBF4;
+    text-decoration: none;
+}
+
+.footer .info li{
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+
+.footer .info h3{
+    font-weight: 700;
+}
+
+.sosmed i{
+    font-size: 40px;
+    color: #FBFBFB;
+}
+/* footer */
+
+/* copyright */
+.copyright{
+    font-size: 18px;
+    color: #F6FBF4;
+    text-align: center;
+}
+/* copyright */
+
+/* contact.html */
+.contact label{
+    color: #062C30;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contact input{
+    border-radius: 10px;
+    box-shadow: 5px 4px 50px rgba(0, 0, 0, 0.06);
+    font-size: 16px;
+    padding: 10px;
+}
+
+.contact .form textarea{
+    width: 100%;
+    min-height: 325px;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 5px 4px 50px rgba(0, 0, 0, 0.06);
+}
+/* contact.html */
+
+
+.sidebar-anime img{
+    width: 100%;
+    height: auto;
+}
+
+.sidebar-anime button{
+    width: 100%;
+    height: 40px;
+    background-color: #02A9FF;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 4px 50px rgba(0, 0, 0, 0.06);
+    transition: 0.3s all;
+    text-decoration: none;
+}
+
+.sidebar-anime p{
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.heading-sidebar-anime{
+    color: #062C30;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sub-heading-sidebar-anime{
+    color: #062C30;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.subheading-anime{
+    color: #062C30;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.card-info{
+    background-color: #FBFBFB;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 4px 50px rgba(0, 0, 0, 0.06);
+    transition: 0.3s all;
+}
+
+/* edit */
+.body-edit .form textarea{
+    width: 90%;
+    min-height: 325px;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 5px 4px 50px rgba(0, 0, 0, 0.06);
+}
