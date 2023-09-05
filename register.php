@@ -1,7 +1,7 @@
 <?php
 $db_user = "root";
 $db_pass = "";
-$db_name = "jwd_project";
+$db_name = "db_anisuki";
 $db = new PDO('mysql:host=localhost; dbname=' . $db_name . ';charset=utf8', $db_user, $db_pass);
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
@@ -17,7 +17,7 @@ if (isset($_POST['create'])) {
     $stmtinsert = $db->prepare(($sql));
     $result = $stmtinsert->execute([$nama_depan, $nama_belakang, $username, $email, $no_telepon, $password]);
     if ($result) {
-        header("location: login.php");
+        header("location: index.php");
     } else {
         echo '<script type="text/javascript">
         alert("Terdapat error ketika menyimpan data");
@@ -33,7 +33,7 @@ if (isset($_POST['create'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tugas Pertemuan ke 3</title>
+    <title>Register - AniSuki</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
@@ -48,7 +48,7 @@ if (isset($_POST['create'])) {
 
     <style>
         body {
-            background-color: #D61C4E;
+            background-color: #151D3B;
         }
     </style>
 </head>
@@ -63,7 +63,7 @@ if (isset($_POST['create'])) {
                         <div class="col-8 form-login">
                             <div class="row pt-2" data-aos="fade-up" data-aos-once="true">
                                 <div class="logo-in-login pt-3">
-                                    <h1 class="login-logo"><span>Portal</span>nime</h1>
+                                    <h1 class="login-logo"><span>Ani</span>Suki</h1>
                                 </div>
                                 <div class="col-12 pt-3" data-aos="fade-up" data-aos-once="true" data-aos-delay="100">
                                     <h2 class="section-heading">REGISTER</h2>
@@ -94,7 +94,10 @@ if (isset($_POST['create'])) {
                                     <label for="psswd" class="form-label">New Password</label>
                                     <input type="password" class="form-control" name="psswd" required>
                                 </div>
-
+                                <div class="col-12 mb-3" data-aos="fade-up" data-aos-once="true" data-aos-delay="300">
+                                    <label for="psswd" class="form-label">Upload Photo Profile</label>
+                                    <input type="file" class="form-control" name="foto" required>
+                                </div>
                             </div>
                             <div class="row mx-5 pb-5" data-aos="fade-up" data-aos-once="true" data-aos-delay="500">
                                 <div class="col-12">

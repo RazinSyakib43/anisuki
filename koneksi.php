@@ -2,5 +2,5 @@
 $host       = "localhost";
 $user       = "root";
 $password   = "";
-$database   = "jwd_project";
+$database   = "db_anisuki";
 $connect    = mysqli_connect($host, $user, $password, $database);
